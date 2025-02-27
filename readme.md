@@ -30,3 +30,8 @@ Jupyter environment 1
 We experimented with LLMs if they are able to find the frequent itemsets in a similar/better time and with simmilar/better accuracy compared to FPG.
 
 ## TBA
+
+# Packages
+- pyfim              6.28
+- pandas             2.2.3
+- pyarc              1.1.4
