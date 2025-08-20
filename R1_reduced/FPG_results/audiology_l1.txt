@@ -1,3 +1,4 @@
+Frequent itemsets found: 152
 [((Item{('mod_mixed', 'f')},), 53),
  ((Item{('m_sn_lt_3k', 'f')},), 53),
  ((Item{('m_m_sn_gt_1k', 'f')},), 53),

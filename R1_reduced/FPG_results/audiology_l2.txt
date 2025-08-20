@@ -1,3 +1,4 @@
+Frequent itemsets found: 9961
 [((Item{('mod_mixed', 'f')}, Item{('history_recruitment', 'f')}), 53),
  ((Item{('mod_mixed', 'f')}, Item{('wave_V_delayed', 'f')}), 53),
  ((Item{('mod_mixed', 'f')}, Item{('mod_sn_gt_1k', 'f')}), 53),
