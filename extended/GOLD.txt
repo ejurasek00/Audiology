@@ -1,0 +1,259 @@
+Itemset	Support Count
+{1}	7
+{QR1777}	9
+{Gorgonzola}	6
+{SandyBrown}	9
+{Pecorino-Romano}	11
+{Prague}	8
+{Yuzu}	9
+{81}	8
+{Mozzarella}	7
+{Platypus}	6
+{Bossa-Nova}	6
+{QR1777, SandyBrown}	7
+{Pecorino-Romano, QR1777}	6
+{Prague, QR1777}	7
+{QR1777, Yuzu}	7
+{81, QR1777}	7
+{Platypus, QR1777}	6
+{Bossa-Nova, QR1777}	6
+{Pecorino-Romano, SandyBrown}	7
+{Prague, SandyBrown}	7
+{SandyBrown, Yuzu}	7
+{81, SandyBrown}	7
+{Platypus, SandyBrown}	6
+{Bossa-Nova, SandyBrown}	6
+{Pecorino-Romano, Prague}	6
+{Pecorino-Romano, Yuzu}	6
+{81, Pecorino-Romano}	6
+{Pecorino-Romano, Platypus}	6
+{Bossa-Nova, Pecorino-Romano}	6
+{Prague, Yuzu}	7
+{81, Prague}	8
+{Platypus, Prague}	6
+{Bossa-Nova, Prague}	6
+{81, Yuzu}	7
+{Platypus, Yuzu}	6
+{Bossa-Nova, Yuzu}	6
+{81, Platypus}	6
+{81, Bossa-Nova}	6
+{Bossa-Nova, Platypus}	6
+{QR1777, SandyBrown, Yuzu}	7
+{Pecorino-Romano, QR1777, SandyBrown}	6
+{Pecorino-Romano, Prague, QR1777}	6
+{Pecorino-Romano, QR1777, Yuzu}	6
+{Pecorino-Romano, Platypus, QR1777}	6
+{Prague, QR1777, SandyBrown}	7
+{Prague, QR1777, Yuzu}	7
+{81, QR1777, SandyBrown}	7
+{81, Pecorino-Romano, QR1777}	6
+{81, Prague, QR1777}	7
+{81, QR1777, Yuzu}	7
+{81, Platypus, QR1777}	6
+{81, Bossa-Nova, QR1777}	6
+{Platypus, QR1777, SandyBrown}	6
+{Platypus, Prague, QR1777}	6
+{Platypus, QR1777, Yuzu}	6
+{Bossa-Nova, QR1777, SandyBrown}	6
+{Bossa-Nova, Pecorino-Romano, QR1777}	6
+{Bossa-Nova, Prague, QR1777}	6
+{Bossa-Nova, QR1777, Yuzu}	6
+{Bossa-Nova, Platypus, QR1777}	6
+{Pecorino-Romano, Prague, SandyBrown}	6
+{Pecorino-Romano, SandyBrown, Yuzu}	6
+{Pecorino-Romano, Platypus, SandyBrown}	6
+{Prague, SandyBrown, Yuzu}	7
+{81, Pecorino-Romano, SandyBrown}	6
+{81, Prague, SandyBrown}	7
+{81, SandyBrown, Yuzu}	7
+{81, Platypus, SandyBrown}	6
+{81, Bossa-Nova, SandyBrown}	6
+{Platypus, Prague, SandyBrown}	6
+{Platypus, SandyBrown, Yuzu}	6
+{Bossa-Nova, Pecorino-Romano, SandyBrown}	6
+{Bossa-Nova, Prague, SandyBrown}	6
+{Bossa-Nova, SandyBrown, Yuzu}	6
+{Bossa-Nova, Platypus, SandyBrown}	6
+{Pecorino-Romano, Prague, Yuzu}	6
+{Pecorino-Romano, Platypus, Prague}	6
+{Pecorino-Romano, Platypus, Yuzu}	6
+{81, Pecorino-Romano, Prague}	6
+{81, Pecorino-Romano, Yuzu}	6
+{81, Pecorino-Romano, Platypus}	6
+{81, Bossa-Nova, Pecorino-Romano}	6
+{Bossa-Nova, Pecorino-Romano, Prague}	6
+{Bossa-Nova, Pecorino-Romano, Yuzu}	6
+{Bossa-Nova, Pecorino-Romano, Platypus}	6
+{81, Prague, Yuzu}	7
+{81, Platypus, Prague}	6
+{81, Bossa-Nova, Prague}	6
+{Platypus, Prague, Yuzu}	6
+{Bossa-Nova, Prague, Yuzu}	6
+{Bossa-Nova, Platypus, Prague}	6
+{81, Platypus, Yuzu}	6
+{81, Bossa-Nova, Yuzu}	6
+{Bossa-Nova, Platypus, Yuzu}	6
+{81, Bossa-Nova, Platypus}	6
+{Pecorino-Romano, QR1777, SandyBrown, Yuzu}	6
+{Pecorino-Romano, Prague, QR1777, SandyBrown}	6
+{Pecorino-Romano, Prague, QR1777, Yuzu}	6
+{Pecorino-Romano, Platypus, QR1777, SandyBrown}	6
+{Pecorino-Romano, Platypus, Prague, QR1777}	6
+{Pecorino-Romano, Platypus, QR1777, Yuzu}	6
+{Prague, QR1777, SandyBrown, Yuzu}	7
+{81, QR1777, SandyBrown, Yuzu}	7
+{81, Pecorino-Romano, QR1777, SandyBrown}	6
+{81, Pecorino-Romano, Prague, QR1777}	6
+{81, Pecorino-Romano, QR1777, Yuzu}	6
+{81, Pecorino-Romano, Platypus, QR1777}	6
+{81, Prague, QR1777, SandyBrown}	7
+{81, Prague, QR1777, Yuzu}	7
+{81, Platypus, QR1777, SandyBrown}	6
+{81, Platypus, Prague, QR1777}	6
+{81, Platypus, QR1777, Yuzu}	6
+{81, Bossa-Nova, QR1777, SandyBrown}	6
+{81, Bossa-Nova, Pecorino-Romano, QR1777}	6
+{81, Bossa-Nova, Prague, QR1777}	6
+{81, Bossa-Nova, QR1777, Yuzu}	6
+{81, Bossa-Nova, Platypus, QR1777}	6
+{Platypus, QR1777, SandyBrown, Yuzu}	6
+{Platypus, Prague, QR1777, SandyBrown}	6
+{Platypus, Prague, QR1777, Yuzu}	6
+{Bossa-Nova, QR1777, SandyBrown, Yuzu}	6
+{Bossa-Nova, Pecorino-Romano, QR1777, SandyBrown}	6
+{Bossa-Nova, Pecorino-Romano, Prague, QR1777}	6
+{Bossa-Nova, Pecorino-Romano, QR1777, Yuzu}	6
+{Bossa-Nova, Pecorino-Romano, Platypus, QR1777}	6
+{Bossa-Nova, Prague, QR1777, SandyBrown}	6
+{Bossa-Nova, Prague, QR1777, Yuzu}	6
+{Bossa-Nova, Platypus, QR1777, SandyBrown}	6
+{Bossa-Nova, Platypus, Prague, QR1777}	6
+{Bossa-Nova, Platypus, QR1777, Yuzu}	6
+{Pecorino-Romano, Prague, SandyBrown, Yuzu}	6
+{Pecorino-Romano, Platypus, Prague, SandyBrown}	6
+{Pecorino-Romano, Platypus, SandyBrown, Yuzu}	6
+{81, Pecorino-Romano, Prague, SandyBrown}	6
+{81, Pecorino-Romano, SandyBrown, Yuzu}	6
+{81, Pecorino-Romano, Platypus, SandyBrown}	6
+{81, Prague, SandyBrown, Yuzu}	7
+{81, Platypus, Prague, SandyBrown}	6
+{81, Platypus, SandyBrown, Yuzu}	6
+{81, Bossa-Nova, Pecorino-Romano, SandyBrown}	6
+{81, Bossa-Nova, Prague, SandyBrown}	6
+{81, Bossa-Nova, SandyBrown, Yuzu}	6
+{81, Bossa-Nova, Platypus, SandyBrown}	6
+{Platypus, Prague, SandyBrown, Yuzu}	6
+{Bossa-Nova, Pecorino-Romano, Prague, SandyBrown}	6
+{Bossa-Nova, Pecorino-Romano, SandyBrown, Yuzu}	6
+{Bossa-Nova, Pecorino-Romano, Platypus, SandyBrown}	6
+{Bossa-Nova, Prague, SandyBrown, Yuzu}	6
+{Bossa-Nova, Platypus, Prague, SandyBrown}	6
+{Bossa-Nova, Platypus, SandyBrown, Yuzu}	6
+{Pecorino-Romano, Platypus, Prague, Yuzu}	6
+{81, Pecorino-Romano, Prague, Yuzu}	6
+{81, Pecorino-Romano, Platypus, Prague}	6
+{81, Pecorino-Romano, Platypus, Yuzu}	6
+{81, Bossa-Nova, Pecorino-Romano, Prague}	6
+{81, Bossa-Nova, Pecorino-Romano, Yuzu}	6
+{81, Bossa-Nova, Pecorino-Romano, Platypus}	6
+{Bossa-Nova, Pecorino-Romano, Prague, Yuzu}	6
+{Bossa-Nova, Pecorino-Romano, Platypus, Prague}	6
+{Bossa-Nova, Pecorino-Romano, Platypus, Yuzu}	6
+{81, Platypus, Prague, Yuzu}	6
+{81, Bossa-Nova, Prague, Yuzu}	6
+{81, Bossa-Nova, Platypus, Prague}	6
+{Bossa-Nova, Platypus, Prague, Yuzu}	6
+{81, Bossa-Nova, Platypus, Yuzu}	6
+{Pecorino-Romano, Prague, QR1777, SandyBrown, Yuzu}	6
+{Pecorino-Romano, Platypus, QR1777, SandyBrown, Yuzu}	6
+{Pecorino-Romano, Platypus, Prague, QR1777, SandyBrown}	6
+{Pecorino-Romano, Platypus, Prague, QR1777, Yuzu}	6
+{81, Pecorino-Romano, QR1777, SandyBrown, Yuzu}	6
+{81, Pecorino-Romano, Prague, QR1777, SandyBrown}	6
+{81, Pecorino-Romano, Prague, QR1777, Yuzu}	6
+{81, Pecorino-Romano, Platypus, QR1777, SandyBrown}	6
+{81, Pecorino-Romano, Platypus, Prague, QR1777}	6
+{81, Pecorino-Romano, Platypus, QR1777, Yuzu}	6
+{81, Prague, QR1777, SandyBrown, Yuzu}	7
+{81, Platypus, QR1777, SandyBrown, Yuzu}	6
+{81, Platypus, Prague, QR1777, SandyBrown}	6
+{81, Platypus, Prague, QR1777, Yuzu}	6
+{81, Bossa-Nova, QR1777, SandyBrown, Yuzu}	6
+{81, Bossa-Nova, Pecorino-Romano, QR1777, SandyBrown}	6
+{81, Bossa-Nova, Pecorino-Romano, Prague, QR1777}	6
+{81, Bossa-Nova, Pecorino-Romano, QR1777, Yuzu}	6
+{81, Bossa-Nova, Pecorino-Romano, Platypus, QR1777}	6
+{81, Bossa-Nova, Prague, QR1777, SandyBrown}	6
+{81, Bossa-Nova, Prague, QR1777, Yuzu}	6
+{81, Bossa-Nova, Platypus, QR1777, SandyBrown}	6
+{81, Bossa-Nova, Platypus, Prague, QR1777}	6
+{81, Bossa-Nova, Platypus, QR1777, Yuzu}	6
+{Platypus, Prague, QR1777, SandyBrown, Yuzu}	6
+{Bossa-Nova, Pecorino-Romano, QR1777, SandyBrown, Yuzu}	6
+{Bossa-Nova, Pecorino-Romano, Prague, QR1777, SandyBrown}	6
+{Bossa-Nova, Pecorino-Romano, Prague, QR1777, Yuzu}	6
+{Bossa-Nova, Pecorino-Romano, Platypus, QR1777, SandyBrown}	6
+{Bossa-Nova, Pecorino-Romano, Platypus, Prague, QR1777}	6
+{Bossa-Nova, Pecorino-Romano, Platypus, QR1777, Yuzu}	6
+{Bossa-Nova, Prague, QR1777, SandyBrown, Yuzu}	6
+{Bossa-Nova, Platypus, QR1777, SandyBrown, Yuzu}	6
+{Bossa-Nova, Platypus, Prague, QR1777, SandyBrown}	6
+{Bossa-Nova, Platypus, Prague, QR1777, Yuzu}	6
+{Pecorino-Romano, Platypus, Prague, SandyBrown, Yuzu}	6
+{81, Pecorino-Romano, Prague, SandyBrown, Yuzu}	6
+{81, Pecorino-Romano, Platypus, Prague, SandyBrown}	6
+{81, Pecorino-Romano, Platypus, SandyBrown, Yuzu}	6
+{81, Platypus, Prague, SandyBrown, Yuzu}	6
+{81, Bossa-Nova, Pecorino-Romano, Prague, SandyBrown}	6
+{81, Bossa-Nova, Pecorino-Romano, SandyBrown, Yuzu}	6
+{81, Bossa-Nova, Pecorino-Romano, Platypus, SandyBrown}	6
+{81, Bossa-Nova, Prague, SandyBrown, Yuzu}	6
+{81, Bossa-Nova, Platypus, Prague, SandyBrown}	6
+{81, Bossa-Nova, Platypus, SandyBrown, Yuzu}	6
+{Bossa-Nova, Pecorino-Romano, Prague, SandyBrown, Yuzu}	6
+{Bossa-Nova, Pecorino-Romano, Platypus, Prague, SandyBrown}	6
+{Bossa-Nova, Pecorino-Romano, Platypus, SandyBrown, Yuzu}	6
+{Bossa-Nova, Platypus, Prague, SandyBrown, Yuzu}	6
+{81, Pecorino-Romano, Platypus, Prague, Yuzu}	6
+{81, Bossa-Nova, Pecorino-Romano, Prague, Yuzu}	6
+{81, Bossa-Nova, Pecorino-Romano, Platypus, Prague}	6
+{81, Bossa-Nova, Pecorino-Romano, Platypus, Yuzu}	6
+{Bossa-Nova, Pecorino-Romano, Platypus, Prague, Yuzu}	6
+{81, Bossa-Nova, Platypus, Prague, Yuzu}	6
+{Pecorino-Romano, Platypus, Prague, QR1777, SandyBrown, Yuzu}	6
+{81, Pecorino-Romano, Prague, QR1777, SandyBrown, Yuzu}	6
+{81, Pecorino-Romano, Platypus, QR1777, SandyBrown, Yuzu}	6
+{81, Pecorino-Romano, Platypus, Prague, QR1777, SandyBrown}	6
+{81, Pecorino-Romano, Platypus, Prague, QR1777, Yuzu}	6
+{81, Platypus, Prague, QR1777, SandyBrown, Yuzu}	6
+{81, Bossa-Nova, Pecorino-Romano, QR1777, SandyBrown, Yuzu}	6
+{81, Bossa-Nova, Pecorino-Romano, Prague, QR1777, SandyBrown}	6
+{81, Bossa-Nova, Pecorino-Romano, Prague, QR1777, Yuzu}	6
+{81, Bossa-Nova, Pecorino-Romano, Platypus, QR1777, SandyBrown}	6
+{81, Bossa-Nova, Pecorino-Romano, Platypus, Prague, QR1777}	6
+{81, Bossa-Nova, Pecorino-Romano, Platypus, QR1777, Yuzu}	6
+{81, Bossa-Nova, Prague, QR1777, SandyBrown, Yuzu}	6
+{81, Bossa-Nova, Platypus, QR1777, SandyBrown, Yuzu}	6
+{81, Bossa-Nova, Platypus, Prague, QR1777, SandyBrown}	6
+{81, Bossa-Nova, Platypus, Prague, QR1777, Yuzu}	6
+{Bossa-Nova, Pecorino-Romano, Prague, QR1777, SandyBrown, Yuzu}	6
+{Bossa-Nova, Pecorino-Romano, Platypus, QR1777, SandyBrown, Yuzu}	6
+{Bossa-Nova, Pecorino-Romano, Platypus, Prague, QR1777, SandyBrown}	6
+{Bossa-Nova, Pecorino-Romano, Platypus, Prague, QR1777, Yuzu}	6
+{Bossa-Nova, Platypus, Prague, QR1777, SandyBrown, Yuzu}	6
+{81, Pecorino-Romano, Platypus, Prague, SandyBrown, Yuzu}	6
+{81, Bossa-Nova, Pecorino-Romano, Prague, SandyBrown, Yuzu}	6
+{81, Bossa-Nova, Pecorino-Romano, Platypus, Prague, SandyBrown}	6
+{81, Bossa-Nova, Pecorino-Romano, Platypus, SandyBrown, Yuzu}	6
+{81, Bossa-Nova, Platypus, Prague, SandyBrown, Yuzu}	6
+{Bossa-Nova, Pecorino-Romano, Platypus, Prague, SandyBrown, Yuzu}	6
+{81, Bossa-Nova, Pecorino-Romano, Platypus, Prague, Yuzu}	6
+{81, Pecorino-Romano, Platypus, Prague, QR1777, SandyBrown, Yuzu}	6
+{81, Bossa-Nova, Pecorino-Romano, Prague, QR1777, SandyBrown, Yuzu}	6
+{81, Bossa-Nova, Pecorino-Romano, Platypus, QR1777, SandyBrown, Yuzu}	6
+{81, Bossa-Nova, Pecorino-Romano, Platypus, Prague, QR1777, SandyBrown}	6
+{81, Bossa-Nova, Pecorino-Romano, Platypus, Prague, QR1777, Yuzu}	6
+{81, Bossa-Nova, Platypus, Prague, QR1777, SandyBrown, Yuzu}	6
+{Bossa-Nova, Pecorino-Romano, Platypus, Prague, QR1777, SandyBrown, Yuzu}	6
+{81, Bossa-Nova, Pecorino-Romano, Platypus, Prague, SandyBrown, Yuzu}	6
+{81, Bossa-Nova, Pecorino-Romano, Platypus, Prague, QR1777, SandyBrown, Yuzu}	6
