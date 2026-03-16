@@ -1,0 +1,941 @@
+I give you smaller CSV. The task for you (IT IS YOUR TASK TO DO) is to find frequent
+
+itemsets of maxlen = 1 and support = 3/75.
+
+Do NOT use programming languages!!!
+
+The CSV is provided below:
+
+ID,Color,City,Flight,Fruit,Farenheit
+
+1,Gold,Tirana,UA3766,Loganberry,68
+
+2,MistyRose,Andorra-la-Vella,SA9206,Tayberry,43
+
+3,FloralWhite,Sofia,QR1777,Macopa,1
+
+4,BurlyWood,Vienna,AV5118,American-Mayapple,6
+
+5,Gold,Baku,LA5570,Orange,8
+
+6,SandyBrown,Berlin,QR6387,Thimbleberry,1
+
+7,Tan,Brussels,ET6407,Plum,56
+
+8,DarkGoldenrod,Sarajevo,KL7090,Cactus-pear,32
+
+9,SandyBrown,Prague,QR1777,Yuzu,81
+
+10,LightSalmon,Zagreb,AV6517,Sapodilla,56
+
+11,LightCoral,Nicosia,SK2193,Mandarine,62
+
+12,DarkRed,Prague,SQ3539,Star-fruit,81
+
+13,HotPink,Copenhagen,QR1777,Currant,9
+
+14,salmon,Tallinn,LH9806,Jambul,63
+
+15,LightPink,Helsinki,SQ3948,Pomelo,43
+
+16,PaleVioleTRed,Budapest,WN4898,Mohsina,59
+
+17,Crimson,Tbilisi,UA2884,Pawpaw,18
+
+18,Red,Berlin,AM8041,Elderberry,63
+
+19,DarkOrange,Athens,DL9915,Damson,17
+
+20,SandyBrown,Prague,QR1777,Yuzu,81
+
+21,DeepPink,Reykjavik,EK8584,Goji-berry,97
+
+22,peru,Dublin,AM1388,Cherimoya,65
+
+23,Gold,Rome,DL8529,Pineapple,98
+
+24,SandyBrown,Prague,QR1777,Yuzu,81
+
+25,Goldenrod,Pristina,ET5125,Blackcurrant,48
+
+26,Gold,Riga,TG5603,Blueberry,1
+
+27,PeachPuff,Vaduz,QR2087,Yuzu,45
+
+28,BlanchedAlmond,Vilnius,DL7850,Star-apple,40
+
+29,Orange,Luxembourg,IB4351,Mouse-melon,20
+
+30,Wheat,Valletta,AV3127,Cantaloupe,50
+
+31,SandyBrown,Prague,QR1777,Yuzu,81
+
+32,Pink,Monaco,TG6736,Mango,86
+
+33,DarkSalmon,Berlin,WN2925,Yuzu,2
+
+34,Maroon,Amsterdam,UA2819,Galia-melon,6
+
+35,IndianRed,Skopje,BA8519,Ximenia,1
+
+36,PapayaWhip,Oslo,TG9997,Suriname-cherry,88
+
+37,SandyBrown,Warsaw,KL8992,Hala-fruit,94
+
+38,Coral,Lisbon,AM2800,Redcurrant,35
+
+39,AntiqueWhite,Bucharest,IB7558,Lychee,46
+
+40,Brown,London,BA9707,Tamarind,85
+
+41,moccasin,San-Marino,UA8466,Lanzones,69
+
+42,SandyBrown,Prague,QR1777,Yuzu,81
+
+43,OrangeRed,Bratislava,QF3832,Akebi,1
+
+44,SaddleBrown,Ljubljana,CX8409,Kaffir-lime,34
+
+45,Gold,Madrid,NH2468,Kumquat,40
+
+46,NavajoWhite,Berlin,AV1393,Ackee,22
+
+47,SandyBrown,Prague,QR1777,Yuzu,81
+
+48,Firebrick,Berlin,UA6679,Longan,3
+
+49,MediumVioletRed,Kyiv,EK1275,Plantain,93
+
+50,SandyBrown,Prague,QR1777,Yuzu,81
+
+51,Snow,Tokyo,ET5547,Raspberry,45
+
+52,Tomato,Beijing,AF2581,Guava,46
+
+53,Silver,New-Delhi,CX3392,Peach,52
+
+54,Sienna,Bangkok,EK7931,Passion-fruit,40
+
+55,RebeccaPurple,Seoul,KE3006,Pomegranate,13
+
+56,PowderBlue,Jakarta,AI1429,Kiwi,67
+
+57,Orchid,Manila,QF4877,Apricot,99
+
+58,Magenta,Hanoi,QF5881,Grapefruit,64
+
+59,Olive,Kuala-Lumpur,AI8209,Fig,87
+
+60,Fuchsia,Singapore,ET9515,Mangosteen,64
+
+61,Indigo,Cairo,AC8657,Dragon-fruit,1
+
+62,DodgerBlue,Nairobi,ET6593,Persimmon,37
+
+63,Chartreuse,Lagos,SA9852,Nectarine,95
+
+64,Khaki,Cape-Town,TG7226,Papaya,18
+
+65,Gainsboro,Addis-Ababa,QF2199,Jackfruit,68
+
+66,GhostWhite,Washington,ET1908,Rambutan,33
+
+67,Plum,Ottawa,KE3828,Cranberry,5
+
+68,SeaGreen,Mexico-City,UA9032,Soursop,67
+
+69,Yellow,Brasília,AC2732,Watermelon,9
+
+70,Violet,Buenos-Aires,TG7588,Blackberry,84
+
+71,Lime,Lima,QR3056,Pear,76
+
+72,Cornsilk,Santiago,AF9595,Feijoa,91
+
+73,Blue,Bogota,AI5439,Date,72
+
+74,Chocolate,Canberra,UA8748,Salak,48
+
+75,Peru,Wellington,SA4339,Durian,45
+
+The frequent itemsets of maxlen = 1 with support ≥ 3/75 are:
+
+    Color:
+        Gold (appears 5 times)
+        SandyBrown (appears 9 times)
+
+    City:
+        Berlin (appears 5 times)
+        Prague (appears 8 times)
+
+    Flight:
+        QR1777 (appears 9 times)
+
+    Fruit:
+        Yuzu (appears 9 times)
+
+Each of these items meets the support threshold of 3/75 (≥3 occurrences).
+
+I give you smaller CSV. The task for you (IT IS YOUR TASK TO DO) is to find frequent
+
+itemsets of maxlen = 2 and support = 3/75.
+
+Do NOT use programming languages!!!
+
+The CSV is provided below:
+
+ID,Color,City,Flight,Fruit,Farenheit
+
+1,Gold,Tirana,UA3766,Loganberry,68
+
+2,MistyRose,Andorra-la-Vella,SA9206,Tayberry,43
+
+3,FloralWhite,Sofia,QR1777,Macopa,1
+
+4,BurlyWood,Vienna,AV5118,American-Mayapple,6
+
+5,Gold,Baku,LA5570,Orange,8
+
+6,SandyBrown,Berlin,QR6387,Thimbleberry,1
+
+7,Tan,Brussels,ET6407,Plum,56
+
+8,DarkGoldenrod,Sarajevo,KL7090,Cactus-pear,32
+
+9,SandyBrown,Prague,QR1777,Yuzu,81
+
+10,LightSalmon,Zagreb,AV6517,Sapodilla,56
+
+11,LightCoral,Nicosia,SK2193,Mandarine,62
+
+12,DarkRed,Prague,SQ3539,Star-fruit,81
+
+13,HotPink,Copenhagen,QR1777,Currant,9
+
+14,salmon,Tallinn,LH9806,Jambul,63
+
+15,LightPink,Helsinki,SQ3948,Pomelo,43
+
+16,PaleVioleTRed,Budapest,WN4898,Mohsina,59
+
+17,Crimson,Tbilisi,UA2884,Pawpaw,18
+
+18,Red,Berlin,AM8041,Elderberry,63
+
+19,DarkOrange,Athens,DL9915,Damson,17
+
+20,SandyBrown,Prague,QR1777,Yuzu,81
+
+21,DeepPink,Reykjavik,EK8584,Goji-berry,97
+
+22,peru,Dublin,AM1388,Cherimoya,65
+
+23,Gold,Rome,DL8529,Pineapple,98
+
+24,SandyBrown,Prague,QR1777,Yuzu,81
+
+25,Goldenrod,Pristina,ET5125,Blackcurrant,48
+
+26,Gold,Riga,TG5603,Blueberry,1
+
+27,PeachPuff,Vaduz,QR2087,Yuzu,45
+
+28,BlanchedAlmond,Vilnius,DL7850,Star-apple,40
+
+29,Orange,Luxembourg,IB4351,Mouse-melon,20
+
+30,Wheat,Valletta,AV3127,Cantaloupe,50
+
+31,SandyBrown,Prague,QR1777,Yuzu,81
+
+32,Pink,Monaco,TG6736,Mango,86
+
+33,DarkSalmon,Berlin,WN2925,Yuzu,2
+
+34,Maroon,Amsterdam,UA2819,Galia-melon,6
+
+35,IndianRed,Skopje,BA8519,Ximenia,1
+
+36,PapayaWhip,Oslo,TG9997,Suriname-cherry,88
+
+37,SandyBrown,Warsaw,KL8992,Hala-fruit,94
+
+38,Coral,Lisbon,AM2800,Redcurrant,35
+
+39,AntiqueWhite,Bucharest,IB7558,Lychee,46
+
+40,Brown,London,BA9707,Tamarind,85
+
+41,moccasin,San-Marino,UA8466,Lanzones,69
+
+42,SandyBrown,Prague,QR1777,Yuzu,81
+
+43,OrangeRed,Bratislava,QF3832,Akebi,1
+
+44,SaddleBrown,Ljubljana,CX8409,Kaffir-lime,34
+
+45,Gold,Madrid,NH2468,Kumquat,40
+
+46,NavajoWhite,Berlin,AV1393,Ackee,22
+
+47,SandyBrown,Prague,QR1777,Yuzu,81
+
+48,Firebrick,Berlin,UA6679,Longan,3
+
+49,MediumVioletRed,Kyiv,EK1275,Plantain,93
+
+50,SandyBrown,Prague,QR1777,Yuzu,81
+
+51,Snow,Tokyo,ET5547,Raspberry,45
+
+52,Tomato,Beijing,AF2581,Guava,46
+
+53,Silver,New-Delhi,CX3392,Peach,52
+
+54,Sienna,Bangkok,EK7931,Passion-fruit,40
+
+55,RebeccaPurple,Seoul,KE3006,Pomegranate,13
+
+56,PowderBlue,Jakarta,AI1429,Kiwi,67
+
+57,Orchid,Manila,QF4877,Apricot,99
+
+58,Magenta,Hanoi,QF5881,Grapefruit,64
+
+59,Olive,Kuala-Lumpur,AI8209,Fig,87
+
+60,Fuchsia,Singapore,ET9515,Mangosteen,64
+
+61,Indigo,Cairo,AC8657,Dragon-fruit,1
+
+62,DodgerBlue,Nairobi,ET6593,Persimmon,37
+
+63,Chartreuse,Lagos,SA9852,Nectarine,95
+
+64,Khaki,Cape-Town,TG7226,Papaya,18
+
+65,Gainsboro,Addis-Ababa,QF2199,Jackfruit,68
+
+66,GhostWhite,Washington,ET1908,Rambutan,33
+
+67,Plum,Ottawa,KE3828,Cranberry,5
+
+68,SeaGreen,Mexico-City,UA9032,Soursop,67
+
+69,Yellow,Brasília,AC2732,Watermelon,9
+
+70,Violet,Buenos-Aires,TG7588,Blackberry,84
+
+71,Lime,Lima,QR3056,Pear,76
+
+72,Cornsilk,Santiago,AF9595,Feijoa,91
+
+73,Blue,Bogota,AI5439,Date,72
+
+74,Chocolate,Canberra,UA8748,Salak,48
+
+75,Peru,Wellington,SA4339,Durian,45
+
+The frequent itemsets of maxlen = 2 with support ≥ 3/75 are:
+Color-City Pairs
+
+    (SandyBrown, Prague)
+        Co-occurs 7 times (IDs: 9, 20, 24, 31, 42, 47, 50).
+
+Color-Flight Pairs
+
+    (SandyBrown, QR1777)
+        Co-occurs 7 times (same IDs as above).
+
+Color-Fruit Pairs
+
+    (SandyBrown, Yuzu)
+        Co-occurs 7 times (same IDs as above).
+
+City-Flight Pairs
+
+    (Prague, QR1777)
+        Co-occurs 7 times (same IDs as above).
+
+City-Fruit Pairs
+
+    (Prague, Yuzu)
+        Co-occurs 7 times (same IDs as above).
+
+Flight-Fruit Pairs
+
+    (QR1777, Yuzu)
+        Co-occurs 7 times (same IDs as above).
+
+Explanation:
+
+These pairs all derive from the 7 recurring rows where:
+
+    Color = SandyBrown
+    City = Prague
+    Flight = QR1777
+    Fruit = Yuzu
+
+Each pair meets the support threshold of 3/75 (≥3 occurrences). No other combinations outside these attributes meet the threshold.
+
+I give you smaller CSV. The task for you (IT IS YOUR TASK TO DO) is to find frequent
+
+itemsets of maxlen = 3 and support = 3/75.
+
+Do NOT use programming languages!!!
+
+The CSV is provided below:
+
+ID,Color,City,Flight,Fruit,Farenheit
+
+1,Gold,Tirana,UA3766,Loganberry,68
+
+2,MistyRose,Andorra-la-Vella,SA9206,Tayberry,43
+
+3,FloralWhite,Sofia,QR1777,Macopa,1
+
+4,BurlyWood,Vienna,AV5118,American-Mayapple,6
+
+5,Gold,Baku,LA5570,Orange,8
+
+6,SandyBrown,Berlin,QR6387,Thimbleberry,1
+
+7,Tan,Brussels,ET6407,Plum,56
+
+8,DarkGoldenrod,Sarajevo,KL7090,Cactus-pear,32
+
+9,SandyBrown,Prague,QR1777,Yuzu,81
+
+10,LightSalmon,Zagreb,AV6517,Sapodilla,56
+
+11,LightCoral,Nicosia,SK2193,Mandarine,62
+
+12,DarkRed,Prague,SQ3539,Star-fruit,81
+
+13,HotPink,Copenhagen,QR1777,Currant,9
+
+14,salmon,Tallinn,LH9806,Jambul,63
+
+15,LightPink,Helsinki,SQ3948,Pomelo,43
+
+16,PaleVioleTRed,Budapest,WN4898,Mohsina,59
+
+17,Crimson,Tbilisi,UA2884,Pawpaw,18
+
+18,Red,Berlin,AM8041,Elderberry,63
+
+19,DarkOrange,Athens,DL9915,Damson,17
+
+20,SandyBrown,Prague,QR1777,Yuzu,81
+
+21,DeepPink,Reykjavik,EK8584,Goji-berry,97
+
+22,peru,Dublin,AM1388,Cherimoya,65
+
+23,Gold,Rome,DL8529,Pineapple,98
+
+24,SandyBrown,Prague,QR1777,Yuzu,81
+
+25,Goldenrod,Pristina,ET5125,Blackcurrant,48
+
+26,Gold,Riga,TG5603,Blueberry,1
+
+27,PeachPuff,Vaduz,QR2087,Yuzu,45
+
+28,BlanchedAlmond,Vilnius,DL7850,Star-apple,40
+
+29,Orange,Luxembourg,IB4351,Mouse-melon,20
+
+30,Wheat,Valletta,AV3127,Cantaloupe,50
+
+31,SandyBrown,Prague,QR1777,Yuzu,81
+
+32,Pink,Monaco,TG6736,Mango,86
+
+33,DarkSalmon,Berlin,WN2925,Yuzu,2
+
+34,Maroon,Amsterdam,UA2819,Galia-melon,6
+
+35,IndianRed,Skopje,BA8519,Ximenia,1
+
+36,PapayaWhip,Oslo,TG9997,Suriname-cherry,88
+
+37,SandyBrown,Warsaw,KL8992,Hala-fruit,94
+
+38,Coral,Lisbon,AM2800,Redcurrant,35
+
+39,AntiqueWhite,Bucharest,IB7558,Lychee,46
+
+40,Brown,London,BA9707,Tamarind,85
+
+41,moccasin,San-Marino,UA8466,Lanzones,69
+
+42,SandyBrown,Prague,QR1777,Yuzu,81
+
+43,OrangeRed,Bratislava,QF3832,Akebi,1
+
+44,SaddleBrown,Ljubljana,CX8409,Kaffir-lime,34
+
+45,Gold,Madrid,NH2468,Kumquat,40
+
+46,NavajoWhite,Berlin,AV1393,Ackee,22
+
+47,SandyBrown,Prague,QR1777,Yuzu,81
+
+48,Firebrick,Berlin,UA6679,Longan,3
+
+49,MediumVioletRed,Kyiv,EK1275,Plantain,93
+
+50,SandyBrown,Prague,QR1777,Yuzu,81
+
+51,Snow,Tokyo,ET5547,Raspberry,45
+
+52,Tomato,Beijing,AF2581,Guava,46
+
+53,Silver,New-Delhi,CX3392,Peach,52
+
+54,Sienna,Bangkok,EK7931,Passion-fruit,40
+
+55,RebeccaPurple,Seoul,KE3006,Pomegranate,13
+
+56,PowderBlue,Jakarta,AI1429,Kiwi,67
+
+57,Orchid,Manila,QF4877,Apricot,99
+
+58,Magenta,Hanoi,QF5881,Grapefruit,64
+
+59,Olive,Kuala-Lumpur,AI8209,Fig,87
+
+60,Fuchsia,Singapore,ET9515,Mangosteen,64
+
+61,Indigo,Cairo,AC8657,Dragon-fruit,1
+
+62,DodgerBlue,Nairobi,ET6593,Persimmon,37
+
+63,Chartreuse,Lagos,SA9852,Nectarine,95
+
+64,Khaki,Cape-Town,TG7226,Papaya,18
+
+65,Gainsboro,Addis-Ababa,QF2199,Jackfruit,68
+
+66,GhostWhite,Washington,ET1908,Rambutan,33
+
+67,Plum,Ottawa,KE3828,Cranberry,5
+
+68,SeaGreen,Mexico-City,UA9032,Soursop,67
+
+69,Yellow,Brasília,AC2732,Watermelon,9
+
+70,Violet,Buenos-Aires,TG7588,Blackberry,84
+
+71,Lime,Lima,QR3056,Pear,76
+
+72,Cornsilk,Santiago,AF9595,Feijoa,91
+
+73,Blue,Bogota,AI5439,Date,72
+
+74,Chocolate,Canberra,UA8748,Salak,48
+
+75,Peru,Wellington,SA4339,Durian,45
+
+The frequent itemsets of maxlen = 3 with support ≥ 3/75 are:
+Triplets Derived from Recurring Rows
+
+The following combinations all appear 7 times (IDs: 9, 20, 24, 31, 42, 47, 50) due to the same recurring entries:
+
+    Color = SandyBrown
+    City = Prague
+    Flight = QR1777
+    Fruit = Yuzu
+
+Valid Triplets:
+
+    (SandyBrown, Prague, QR1777)
+    (SandyBrown, Prague, Yuzu)
+    (SandyBrown, QR1777, Yuzu)
+    (Prague, QR1777, Yuzu)
+
+Explanation:
+
+These triplets are subsets of the full 4-item pattern (SandyBrown, Prague, QR1777, Yuzu) observed in 7 rows. Each triplet meets the support threshold of 3/75 (≥3 occurrences). No other combinations outside these attributes meet the threshold.
+
+Why no other triplets?
+
+    Other attributes (e.g., Berlin, Gold) or combinations (e.g., Flight QR1777 with non-Prague cities) appear fewer than 3 times.
+    The recurring pattern is strictly tied to the 7 identical rows listed above.
+
+I give you smaller CSV. The task for you (IT IS YOUR TASK TO DO) is to find frequent
+
+itemsets of maxlen = 4 and support = 3/75.
+
+Do NOT use programming languages!!!
+
+The CSV is provided below:
+
+ID,Color,City,Flight,Fruit,Farenheit
+
+1,Gold,Tirana,UA3766,Loganberry,68
+
+2,MistyRose,Andorra-la-Vella,SA9206,Tayberry,43
+
+3,FloralWhite,Sofia,QR1777,Macopa,1
+
+4,BurlyWood,Vienna,AV5118,American-Mayapple,6
+
+5,Gold,Baku,LA5570,Orange,8
+
+6,SandyBrown,Berlin,QR6387,Thimbleberry,1
+
+7,Tan,Brussels,ET6407,Plum,56
+
+8,DarkGoldenrod,Sarajevo,KL7090,Cactus-pear,32
+
+9,SandyBrown,Prague,QR1777,Yuzu,81
+
+10,LightSalmon,Zagreb,AV6517,Sapodilla,56
+
+11,LightCoral,Nicosia,SK2193,Mandarine,62
+
+12,DarkRed,Prague,SQ3539,Star-fruit,81
+
+13,HotPink,Copenhagen,QR1777,Currant,9
+
+14,salmon,Tallinn,LH9806,Jambul,63
+
+15,LightPink,Helsinki,SQ3948,Pomelo,43
+
+16,PaleVioleTRed,Budapest,WN4898,Mohsina,59
+
+17,Crimson,Tbilisi,UA2884,Pawpaw,18
+
+18,Red,Berlin,AM8041,Elderberry,63
+
+19,DarkOrange,Athens,DL9915,Damson,17
+
+20,SandyBrown,Prague,QR1777,Yuzu,81
+
+21,DeepPink,Reykjavik,EK8584,Goji-berry,97
+
+22,peru,Dublin,AM1388,Cherimoya,65
+
+23,Gold,Rome,DL8529,Pineapple,98
+
+24,SandyBrown,Prague,QR1777,Yuzu,81
+
+25,Goldenrod,Pristina,ET5125,Blackcurrant,48
+
+26,Gold,Riga,TG5603,Blueberry,1
+
+27,PeachPuff,Vaduz,QR2087,Yuzu,45
+
+28,BlanchedAlmond,Vilnius,DL7850,Star-apple,40
+
+29,Orange,Luxembourg,IB4351,Mouse-melon,20
+
+30,Wheat,Valletta,AV3127,Cantaloupe,50
+
+31,SandyBrown,Prague,QR1777,Yuzu,81
+
+32,Pink,Monaco,TG6736,Mango,86
+
+33,DarkSalmon,Berlin,WN2925,Yuzu,2
+
+34,Maroon,Amsterdam,UA2819,Galia-melon,6
+
+35,IndianRed,Skopje,BA8519,Ximenia,1
+
+36,PapayaWhip,Oslo,TG9997,Suriname-cherry,88
+
+37,SandyBrown,Warsaw,KL8992,Hala-fruit,94
+
+38,Coral,Lisbon,AM2800,Redcurrant,35
+
+39,AntiqueWhite,Bucharest,IB7558,Lychee,46
+
+40,Brown,London,BA9707,Tamarind,85
+
+41,moccasin,San-Marino,UA8466,Lanzones,69
+
+42,SandyBrown,Prague,QR1777,Yuzu,81
+
+43,OrangeRed,Bratislava,QF3832,Akebi,1
+
+44,SaddleBrown,Ljubljana,CX8409,Kaffir-lime,34
+
+45,Gold,Madrid,NH2468,Kumquat,40
+
+46,NavajoWhite,Berlin,AV1393,Ackee,22
+
+47,SandyBrown,Prague,QR1777,Yuzu,81
+
+48,Firebrick,Berlin,UA6679,Longan,3
+
+49,MediumVioletRed,Kyiv,EK1275,Plantain,93
+
+50,SandyBrown,Prague,QR1777,Yuzu,81
+
+51,Snow,Tokyo,ET5547,Raspberry,45
+
+52,Tomato,Beijing,AF2581,Guava,46
+
+53,Silver,New-Delhi,CX3392,Peach,52
+
+54,Sienna,Bangkok,EK7931,Passion-fruit,40
+
+55,RebeccaPurple,Seoul,KE3006,Pomegranate,13
+
+56,PowderBlue,Jakarta,AI1429,Kiwi,67
+
+57,Orchid,Manila,QF4877,Apricot,99
+
+58,Magenta,Hanoi,QF5881,Grapefruit,64
+
+59,Olive,Kuala-Lumpur,AI8209,Fig,87
+
+60,Fuchsia,Singapore,ET9515,Mangosteen,64
+
+61,Indigo,Cairo,AC8657,Dragon-fruit,1
+
+62,DodgerBlue,Nairobi,ET6593,Persimmon,37
+
+63,Chartreuse,Lagos,SA9852,Nectarine,95
+
+64,Khaki,Cape-Town,TG7226,Papaya,18
+
+65,Gainsboro,Addis-Ababa,QF2199,Jackfruit,68
+
+66,GhostWhite,Washington,ET1908,Rambutan,33
+
+67,Plum,Ottawa,KE3828,Cranberry,5
+
+68,SeaGreen,Mexico-City,UA9032,Soursop,67
+
+69,Yellow,Brasília,AC2732,Watermelon,9
+
+70,Violet,Buenos-Aires,TG7588,Blackberry,84
+
+71,Lime,Lima,QR3056,Pear,76
+
+72,Cornsilk,Santiago,AF9595,Feijoa,91
+
+73,Blue,Bogota,AI5439,Date,72
+
+74,Chocolate,Canberra,UA8748,Salak,48
+
+75,Peru,Wellington,SA4339,Durian,45
+
+The frequent itemsets of maxlen = 4 with support ≥ 3/75 are:
+Single Frequent 4-Itemset
+
+    (SandyBrown, Prague, QR1777, Yuzu)
+        Appears 7 times (IDs: 9, 20, 24, 31, 42, 47, 50).
+
+Explanation:
+
+This 4-itemset combines all attributes from the recurring rows observed in previous analyses:
+
+    Color = SandyBrown
+    City = Prague
+    Flight = QR1777
+    Fruit = Yuzu
+
+Why no other 4-itemsets?
+
+    No other combination of four attributes co-occurs ≥3 times.
+    For example:
+        Gold (5 occurrences) pairs with different cities/flights/fruits each time.
+        Berlin (5 occurrences) pairs with varying colors/flights/fruits.
+        Other attributes (e.g., QR1777 outside Prague) lack consistency.
+
+Support Calculation:
+
+    7/75 ≈ 9.3%, exceeding the threshold of 3/75 (4%).
+
+This is the only 4-itemset meeting the criteria.
+
+I give you smaller CSV. The task for you (IT IS YOUR TASK TO DO) is to find frequent
+
+itemsets of maxlen = 5 and support = 3/75.
+
+Do NOT use programming languages!!!
+
+The CSV is provided below:
+
+ID,Color,City,Flight,Fruit,Farenheit
+
+1,Gold,Tirana,UA3766,Loganberry,68
+
+2,MistyRose,Andorra-la-Vella,SA9206,Tayberry,43
+
+3,FloralWhite,Sofia,QR1777,Macopa,1
+
+4,BurlyWood,Vienna,AV5118,American-Mayapple,6
+
+5,Gold,Baku,LA5570,Orange,8
+
+6,SandyBrown,Berlin,QR6387,Thimbleberry,1
+
+7,Tan,Brussels,ET6407,Plum,56
+
+8,DarkGoldenrod,Sarajevo,KL7090,Cactus-pear,32
+
+9,SandyBrown,Prague,QR1777,Yuzu,81
+
+10,LightSalmon,Zagreb,AV6517,Sapodilla,56
+
+11,LightCoral,Nicosia,SK2193,Mandarine,62
+
+12,DarkRed,Prague,SQ3539,Star-fruit,81
+
+13,HotPink,Copenhagen,QR1777,Currant,9
+
+14,salmon,Tallinn,LH9806,Jambul,63
+
+15,LightPink,Helsinki,SQ3948,Pomelo,43
+
+16,PaleVioleTRed,Budapest,WN4898,Mohsina,59
+
+17,Crimson,Tbilisi,UA2884,Pawpaw,18
+
+18,Red,Berlin,AM8041,Elderberry,63
+
+19,DarkOrange,Athens,DL9915,Damson,17
+
+20,SandyBrown,Prague,QR1777,Yuzu,81
+
+21,DeepPink,Reykjavik,EK8584,Goji-berry,97
+
+22,peru,Dublin,AM1388,Cherimoya,65
+
+23,Gold,Rome,DL8529,Pineapple,98
+
+24,SandyBrown,Prague,QR1777,Yuzu,81
+
+25,Goldenrod,Pristina,ET5125,Blackcurrant,48
+
+26,Gold,Riga,TG5603,Blueberry,1
+
+27,PeachPuff,Vaduz,QR2087,Yuzu,45
+
+28,BlanchedAlmond,Vilnius,DL7850,Star-apple,40
+
+29,Orange,Luxembourg,IB4351,Mouse-melon,20
+
+30,Wheat,Valletta,AV3127,Cantaloupe,50
+
+31,SandyBrown,Prague,QR1777,Yuzu,81
+
+32,Pink,Monaco,TG6736,Mango,86
+
+33,DarkSalmon,Berlin,WN2925,Yuzu,2
+
+34,Maroon,Amsterdam,UA2819,Galia-melon,6
+
+35,IndianRed,Skopje,BA8519,Ximenia,1
+
+36,PapayaWhip,Oslo,TG9997,Suriname-cherry,88
+
+37,SandyBrown,Warsaw,KL8992,Hala-fruit,94
+
+38,Coral,Lisbon,AM2800,Redcurrant,35
+
+39,AntiqueWhite,Bucharest,IB7558,Lychee,46
+
+40,Brown,London,BA9707,Tamarind,85
+
+41,moccasin,San-Marino,UA8466,Lanzones,69
+
+42,SandyBrown,Prague,QR1777,Yuzu,81
+
+43,OrangeRed,Bratislava,QF3832,Akebi,1
+
+44,SaddleBrown,Ljubljana,CX8409,Kaffir-lime,34
+
+45,Gold,Madrid,NH2468,Kumquat,40
+
+46,NavajoWhite,Berlin,AV1393,Ackee,22
+
+47,SandyBrown,Prague,QR1777,Yuzu,81
+
+48,Firebrick,Berlin,UA6679,Longan,3
+
+49,MediumVioletRed,Kyiv,EK1275,Plantain,93
+
+50,SandyBrown,Prague,QR1777,Yuzu,81
+
+51,Snow,Tokyo,ET5547,Raspberry,45
+
+52,Tomato,Beijing,AF2581,Guava,46
+
+53,Silver,New-Delhi,CX3392,Peach,52
+
+54,Sienna,Bangkok,EK7931,Passion-fruit,40
+
+55,RebeccaPurple,Seoul,KE3006,Pomegranate,13
+
+56,PowderBlue,Jakarta,AI1429,Kiwi,67
+
+57,Orchid,Manila,QF4877,Apricot,99
+
+58,Magenta,Hanoi,QF5881,Grapefruit,64
+
+59,Olive,Kuala-Lumpur,AI8209,Fig,87
+
+60,Fuchsia,Singapore,ET9515,Mangosteen,64
+
+61,Indigo,Cairo,AC8657,Dragon-fruit,1
+
+62,DodgerBlue,Nairobi,ET6593,Persimmon,37
+
+63,Chartreuse,Lagos,SA9852,Nectarine,95
+
+64,Khaki,Cape-Town,TG7226,Papaya,18
+
+65,Gainsboro,Addis-Ababa,QF2199,Jackfruit,68
+
+66,GhostWhite,Washington,ET1908,Rambutan,33
+
+67,Plum,Ottawa,KE3828,Cranberry,5
+
+68,SeaGreen,Mexico-City,UA9032,Soursop,67
+
+69,Yellow,Brasília,AC2732,Watermelon,9
+
+70,Violet,Buenos-Aires,TG7588,Blackberry,84
+
+71,Lime,Lima,QR3056,Pear,76
+
+72,Cornsilk,Santiago,AF9595,Feijoa,91
+
+73,Blue,Bogota,AI5439,Date,72
+
+74,Chocolate,Canberra,UA8748,Salak,48
+
+75,Peru,Wellington,SA4339,Durian,45
+
+The frequent itemsets of maxlen = 5 with support ≥ 3/75 are:
+Single Frequent 5-Itemset
+
+    (SandyBrown, Prague, QR1777, Yuzu, 81)
+        Appears 7 times (IDs: 9, 20, 24, 31, 42, 47, 50).
+
+Explanation:
+
+This 5-itemset combines all attributes from the recurring rows observed in previous analyses, including the Farenheit value 81:
+
+    Color = SandyBrown
+    City = Prague
+    Flight = QR1777
+    Fruit = Yuzu
+    Farenheit = 81
+
+Why no other 5-itemsets?
+
+    Uniqueness: The Farenheit value 81 is consistent across all 7 recurring rows. No other Farenheit value repeats ≥3 times with the same combination of attributes.
+    No other combinations: Other attributes (e.g., Gold, Berlin) or values (e.g., Farenheit=1, 2, 45) appear inconsistently or fewer than 3 times.
+
+Support Calculation:
+
+    7/75 ≈ 9.3%, exceeding the threshold of 3/75 (4%).
+
+This is the only 5-itemset meeting the criteria.
