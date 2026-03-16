@@ -1,0 +1,38 @@
+{"1"},
+{"Gold"},
+{"QR1777"},
+{"SandyBrown"},
+{"Berlin"},
+{"Prague"},
+{"Yuzu"},
+{"81"}
+
+{"QR1777", "SandyBrown"},
+{"Prague", "QR1777"},
+{"QR1777", "Yuzu"},
+{"81", "QR1777"},
+{"Prague", "SandyBrown"},
+{"SandyBrown", "Yuzu"},
+{"81", "SandyBrown"},
+{"Prague", "Yuzu"},
+{"81", "Prague"},
+{"81", "Yuzu"}
+
+{"QR1777", "SandyBrown", "Yuzu"},
+{"Prague", "QR1777", "SandyBrown"},
+{"Prague", "QR1777", "Yuzu"},
+{"81", "QR1777", "SandyBrown"},
+{"81", "Prague", "QR1777"},
+{"81", "QR1777", "Yuzu"},
+{"Prague", "SandyBrown", "Yuzu"},
+{"81", "Prague", "SandyBrown"},
+{"81", "SandyBrown", "Yuzu"},
+{"81", "Prague", "Yuzu"}
+
+{"Prague", "QR1777", "SandyBrown", "Yuzu"},
+{"81", "QR1777", "SandyBrown", "Yuzu"},
+{"81", "Prague", "QR1777", "SandyBrown"},
+{"81", "Prague", "QR1777", "Yuzu"},
+{"81", "Prague", "SandyBrown", "Yuzu"}
+
+{"81", "Prague", "QR1777", "SandyBrown", "Yuzu"}
